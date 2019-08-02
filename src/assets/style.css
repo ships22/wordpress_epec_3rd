@@ -11,13 +11,12 @@ h2 {
   margin-top: 10px;
   font-weight: 700;
 }
-/* h1 {
-  font-size: 64px;
-} */
+a {
+  text-decoration: none;
+  color: black;
+}
 /*** header *****/
-/* nav {
-  line-height: 95px;
-} */
+
 nav a {
   text-decoration: none;
   transition: 0.5s;
@@ -37,11 +36,9 @@ ul.list {
   padding: 0;
   list-style: none;
   display: block;
-  background: red;
 }
 ul.list li {
   display: inline-block !important;
-  border: 1px solid white;
 }
 
 .tags li a {
