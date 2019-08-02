@@ -1,0 +1,51 @@
+* {
+  font-family: "Exo";
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+h1,
+h2 {
+  font-family: "Rubik";
+  margin-top: 10px;
+  font-weight: 700;
+}
+/* h1 {
+  font-size: 64px;
+} */
+/*** header *****/
+/* nav {
+  line-height: 95px;
+} */
+nav a {
+  text-decoration: none;
+  transition: 0.5s;
+  font-family: rubik;
+  font-weight: 700;
+}
+nav a:hover {
+  color: red;
+}
+.post-list li {
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+
+/*tags*/
+ul.list {
+  padding: 0;
+  list-style: none;
+  display: block;
+  background: red;
+}
+ul.list li {
+  display: inline-block !important;
+  border: 1px solid white;
+}
+
+.tags li a {
+  color: black;
+  text-decoration: none;
+  padding: 4px 8px;
+}
